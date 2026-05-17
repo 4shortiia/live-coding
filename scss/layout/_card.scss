@@ -23,6 +23,13 @@
         );
         border-radius: 0.8rem;
         color: v.$text-primary;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+
+        &:hover {
+            background-color: #532506;
+            transform: scale(1.09);
+        }
     }
 
     &__clear-btn {
@@ -31,6 +38,13 @@
         border-radius: 0.8rem;
         background: v.$bg-secondary;
         color: v.$text-primary;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+
+        &:hover {
+            background-color: #8b3e0b;
+            transform: scale(1.09);
+        }
     }
 }
 
@@ -40,14 +54,19 @@
     font-size: v.$font-sm;
 }
 
-// body:has(#button:checked)
-
 .toggle-btn {
     width: 25.7rem;
     height: 3.7rem;
     background: v.$bg-secondary;
     border-radius: 0.8rem;
     color: v.$text-primary;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+        background-color: #8b3e0b;
+        transform: scale(1.09);
+    }
 }
 
 .card-desc {

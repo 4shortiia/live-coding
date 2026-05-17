@@ -51,6 +51,12 @@ button {
   background: linear-gradient(90deg, rgb(226, 113, 37) 100%, rgba(124, 62, 20, 0.13) 100%);
   border-radius: 0.8rem;
   color: #fbd6c1;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.btn-wrapper__add-btn:hover {
+  background-color: #532506;
+  transform: scale(1.09);
 }
 .btn-wrapper__clear-btn {
   width: 8.3rem;
@@ -58,6 +64,12 @@ button {
   border-radius: 0.8rem;
   background: #19191b;
   color: #fbd6c1;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.btn-wrapper__clear-btn:hover {
+  background-color: #8b3e0b;
+  transform: scale(1.09);
 }
 
 .card-desc {
@@ -72,6 +84,12 @@ button {
   background: #19191b;
   border-radius: 0.8rem;
   color: #fbd6c1;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.toggle-btn:hover {
+  background-color: #8b3e0b;
+  transform: scale(1.09);
 }
 
 .card-desc {
